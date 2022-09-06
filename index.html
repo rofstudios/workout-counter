@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Workout / Set Counter:</h1>
+            <h2 id="count-el">0</h2>
+            <section>
+                <button id="button-image" onclick="restart(1)"></button>
+                <button class="increment-btn" onclick="setPlusOne()">Set +</button>
+                <button class="save-btn" onclick="save(1)">Save</button>
+                <button class="clear-btn" onclick="save(3)">Clear</button>
+                </section>
+            <section>
+                <button id="button-image" onclick="restart(2)"></button>                
+                <button class="increment-btn" onclick="setPlusOne()">Workout +</button>
+                <button class="save-btn" onclick="save(2)">Save</button>
+                <button class="clear-btn" onclick="save(4)">Clear</button>
+            </section>
+            <p id="save-set">Previous Set: </p>
+            <p id="save-workout">Previous Workout: </p>            
+        </div>
+        <script src="index.js">
+            nnerText
+        </script>
+    </body>
+</html>
